@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: #eee;
+    margin:0 auto;
+    max-width: 900px;
+    padding:20px;
+    font-family: 'Lato', sans-serif;
+}

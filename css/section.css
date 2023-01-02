@@ -1,0 +1,10 @@
+.section {
+    background: white;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+.section__header {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    font-size: 20px;
+}
