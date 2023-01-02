@@ -1,0 +1,44 @@
+.tasks {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.task__item {
+    list-style: none;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(185, 167, 167);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.task__item--done {
+    text-decoration: line-through;
+}
+
+.task__button {
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: green;
+    transition: 1s;
+}
+
+.task__button:hover {
+    background: hsl(120, 100%, 15%);
+}
+
+.task__button:active {
+    background: hsl(120, 100%, 35%);
+}
+
+.task__button--special {
+    background: red;
+}
