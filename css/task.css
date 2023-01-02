@@ -28,7 +28,7 @@
     height: 30px;
     padding: 0;
     background: green;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .task__button:hover {
@@ -41,4 +41,12 @@
 
 .task__button--special {
     background: red;
+}
+
+.task__button--special:hover {
+    background: hsl(0, 100%, 40%);
+}
+
+.task__button--special:active {
+    background: hsl(0, 100%, 60%);
 }
