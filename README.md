@@ -13,6 +13,7 @@ The sign "✓" will appear and the whole task will be crossed out. If you want t
 - JavaScript
 - BEM
 - Grid
+- Flex
 
 ## You can check it out in here:
 https://saneckaa.github.io/Lista-zadan/
