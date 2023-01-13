@@ -71,11 +71,11 @@
 
         buttonsElement.innerHTML = `
         <button class="buttons__button js-toggleHideDoneTasks">
-        ${hideDoneTasks ? "Pokaż" : "Ukryj"} zrobione
+          ${hideDoneTasks ? "Pokaż" : "Ukryj"} zrobione
         </button>
         <button class="buttons__button js-markAllDone"
-        ${tasks.every(({ done }) => done) ? "disabled" : ""}>
-        Ukończ wszystkie 
+          ${tasks.every(({ done }) => done) ? "disabled" : ""}>
+          Ukończ wszystkie 
         </button>
         `;
     };
