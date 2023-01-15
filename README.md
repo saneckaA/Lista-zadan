@@ -15,5 +15,5 @@ The sign "✓" will appear and the whole task will be crossed out. If you want t
 - Grid
 - Flex
 
-## You can check it out in here:
+## You can check it out here:
 https://saneckaa.github.io/Lista-zadan/
