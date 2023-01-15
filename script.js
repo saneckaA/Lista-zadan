@@ -42,9 +42,8 @@
 
     const renderTasks = () => {
         const taskToHTML = task => `
-        <li class="
-          task__item${task.done && hideDoneTasks ? " task__item--hidden" : ""} js-tasks
-        ">
+        <li class="task__item${task.done && hideDoneTasks ? " task__item--hidden" : ""} js-tasks
+          ">
           <button class="task__button js-done">
             ${task.done ? "✓" : ""}
           </button>
@@ -70,12 +69,15 @@
         }
 
         buttonsElement.innerHTML = `
-        <button class="buttons__button js-toggleHideDoneTasks">
-          ${hideDoneTasks ? "Pokaż" : "Ukryj"} zrobione
+        <button 
+           class="buttons__button js-toggleHideDoneTasks">
+           ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
-        <button class="buttons__button js-markAllDone"
-          ${tasks.every(({ done }) => done) ? "disabled" : ""}>
-          Ukończ wszystkie 
+        <button 
+           class="buttons__button js-markAllDone"
+           ${tasks.every(({ done }) => done) ? "disabled" : ""}
+        >
+           Ukończ wszystkie 
         </button>
         `;
     };
@@ -91,7 +93,7 @@
 
         if (toggleHideDoneTasksButton) {
             toggleHideDoneTasksButton.addEventListener("click", toggleHideDoneTasks)
-        }
+         }
     };
 
     const bindRemoveEvents = () => {

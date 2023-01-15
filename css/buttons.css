@@ -3,12 +3,25 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .buttons {
+       margin-bottom: 20px;
+    }
+}
+
 .buttons__button {
     background: transparent;
     border: none;
     color: teal;
     margin: 0 0 0 20px;
-    transition: color 1s;
+    transition: color 0.5s;
+}
+
+@media (max-width: 768px) {
+    .buttons__button {
+        flex-basis: 100%;
+        margin: 10px;
+    }
 }
 
 .buttons__button:hover {
